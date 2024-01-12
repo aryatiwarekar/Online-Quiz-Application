@@ -14,7 +14,7 @@ public class Quiz {
     private int score;
 
     public Quiz(){
-        this(createQuiz());
+        this.questions = createQuiz();
     }
     public Quiz(List<Question> questions) {
         this.questions = questions;
