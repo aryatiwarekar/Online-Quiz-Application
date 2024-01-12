@@ -15,6 +15,7 @@ public class Quiz {
 
     public Quiz(){
         this.questions = createQuiz();
+        this.score = 0;
     }
     public Quiz(List<Question> questions) {
         this.questions = questions;
