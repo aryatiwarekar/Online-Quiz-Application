@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
 
         List<Question> questions = new ArrayList<>();
+        // This is a default quiz
         questions.add(new Question("What is the capital of France?",
                 new String[]{"London", "Paris", "Rome", "Berlin"}, 1));
-        // Add more questions
         questions.add(new Question("Who is known as father of Computer?",
                 new String[]{"Dennis Richie", "Charles Babbage", "Steve Jobs", "Bill Gate"}, 1));
 
